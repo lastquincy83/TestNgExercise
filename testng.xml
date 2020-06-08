@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/x468694/Documents/TestNgDemo/src/test/java/com/training/demo/OrangeHrmLive.java">
+        <classes>
+            <class name="com.training.demo.OrangeHrmLive">
+<!--                <methods>-->
+<!--                    <include name="login"/>-->
+<!--                    <include name="navigateToAdmin"/>-->
+<!--                    <include name="validateAdd"/>-->
+<!--                    <include name="validateSaveAdd"/>-->
+<!--                    <include name="validateSearchAdd"/>-->
+<!--                    <include name="validateLogout"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
