@@ -40,6 +40,7 @@ public class OrangeHrmLive {
 
     @Test(priority = 1)
     public void login() {
+        Assert.assertEquals(driver.getTitle(), "OrangeHRM");
         driver.findElement(By.id("txtUsername")).sendKeys(ADMINUSERNAME);
         driver.findElement(By.id("txtPassword")).sendKeys(ADMINPASSWORD);
         driver.findElement(By.id("btnLogin")).click();
